@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Permanent+Marker&display=swap");
+
+.jesting-random-position {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.jesting-random-position p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  width: 950px;
+  height: 80px;
+  border: 1px solid black;
+  font-family: "Fredoka One", cursive;
+}

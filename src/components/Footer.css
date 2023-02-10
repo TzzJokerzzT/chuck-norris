@@ -1,0 +1,13 @@
+
+.footer {
+  background-color: #6b4b08;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.footer p {
+  color: white;
+  font-family: "Fredoka One", cursive;
+}
