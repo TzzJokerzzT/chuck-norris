@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Permanent+Marker&display=swap");
 
 .jesting-position {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   position: relative;
   top: 6rem;
   left: 17%;
