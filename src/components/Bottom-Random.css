@@ -1,16 +1,20 @@
-.button-random-position {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.random-button {
+  position: relative;
+  display: grid;
+  left: 44%; /* 29% */
+  top: 10rem;
 }
 
 .random-button {
-  color: white;
+  width: 13rem;
+  height: 1.1rem;
   background-color: #6b4b08;
   border: 1px solid #6b4b08;
   border-radius: 3px;
   box-shadow: 3px 4px 8px rgba(102, 75, 8);
+  border: none;
+  border-radius: 3px;
+  color: white;
 }
 
 .random-button:hover {
@@ -39,5 +43,14 @@
   }
   100% {
     transform: translate(0);
+  }
+}
+
+@media (max-width: 375px) {
+  .random-button {
+    position: relative;
+    display: grid;
+    left: 24%; /* 29% */
+    top: 5rem;
   }
 }

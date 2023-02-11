@@ -1,10 +1,13 @@
-.input-position {
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
+.input-field {
+  position: relative;
+  left: 43.5%;
+  top: 7rem;
+}
+
+.input-buttom {
+  position: relative;
+  left: 44%;
+  top: 7rem;
 }
 
 .input-buttom {
@@ -13,7 +16,7 @@
   border: 1px solid #6b4b08;
   border-radius: 3px;
   box-shadow: 3px 4px 8px rgba(102, 75, 8);
-  margin-left: 5px;
+  margin-left: 0.3rem;
 }
 
 .input-buttom:hover {
@@ -62,5 +65,18 @@
   }
   75% {
     translate: 6px 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .input-field {
+    position: relative;
+    left: 19%;
+    top: 3rem;
+  }
+  .input-buttom {
+    position: relative;
+    left: 20%;
+    top: 3rem;
   }
 }

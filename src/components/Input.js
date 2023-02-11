@@ -7,7 +7,7 @@ import "./Input.css";
 export const Input = () => {
   const [value, setValue] = useState([]);
   return (
-    <div className="input-position">
+    <article className="input-position">
       <Jesting value={value} />
       <Formik
         initialValues={{ search: "" }}
@@ -21,12 +21,14 @@ export const Input = () => {
             className="input-field"
             name="search"
             placeholder="Put here word"
-            pattern='[a-z]*'
+            // pattern="[a-z]*"
             type="text"
           />
-          <button className="input-buttom" type="submit">Search</button>
+          <button className="input-buttom" type="submit">
+            Search
+          </button>
         </Form>
       </Formik>
-    </div>
+    </article>
   );
 };

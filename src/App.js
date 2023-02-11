@@ -7,10 +7,10 @@ import "./App.css";
 const App = () => {
   return (
     <div className="app-container">
-      <HeaderChuck className="header" />
-      <Input className="jesting" />
-      <Random className="random" />
-      <Footer className="footer" />
+      <HeaderChuck />
+      <Input />
+      <Random />
+      <Footer />
     </div>
   );
 };

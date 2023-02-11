@@ -1,16 +1,21 @@
+/* Grid style */
+
 .navbar-position {
+  display: grid;
+  justify-items: center;
   background-color: #6b4b08;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  height: 6rem;
+  width: 100%;
+}
+
+.navbar-position img {
+  position: relative;
 }
 
 .navbar-position p {
   border-top: 1px solid black;
   color: white;
-  margin-top: 0;
-  padding-top: 0;
   font-family: "Fredoka One", cursive;
+  position: relative;
+  bottom: 1.2rem;
 }
-

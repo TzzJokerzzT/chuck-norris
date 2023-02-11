@@ -1,13 +1,49 @@
-
 .footer {
+  display: grid;
+  position: relative;
+  gap: 1rem;
+  grid-auto-rows: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  top: 33.62rem;
   background-color: #6b4b08;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
   text-align: center;
 }
 
 .footer p {
   color: white;
   font-family: "Fredoka One", cursive;
+}
+
+@media (max-width: 1440px) {
+  .footer {
+    position: relative;
+    top: 22.4rem;
+  }
+}
+
+@media (max-width: 1440px) {
+  .footer {
+    position: relative;
+    top: 22.4rem;
+  }
+}
+
+@media (max-width: 1366px) {
+  .footer {
+    position: relative;
+    top: 14.12rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .footer {
+    position: relative;
+    top: 256px;
+    
+  }
+  .footer p {
+    font-size: 0.8rem;
+    color: white;
+    font-family: "Fredoka One", cursive;
+  }
 }
