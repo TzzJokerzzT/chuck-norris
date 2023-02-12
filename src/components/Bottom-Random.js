@@ -10,9 +10,13 @@ const Random = () => {
     setValue(chuckResp);
   };
   return (
-    <div className="button-random-position">
+    <div className="button-container">
       <JestingRandom valor={value} />
-      <button className='random-button' type="submit" onClick={() => fetchChuck()}>
+      <button
+        className="button-random"
+        type="submit"
+        onClick={() => fetchChuck()}
+      >
         Generate Random Phrase
       </button>
     </div>
@@ -20,3 +24,5 @@ const Random = () => {
 };
 
 export default Random;
+
+//

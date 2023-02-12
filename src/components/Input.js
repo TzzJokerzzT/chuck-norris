@@ -20,8 +20,7 @@ export const Input = () => {
           <Field
             className="input-field"
             name="search"
-            placeholder="Put here word"
-            // pattern="[a-z]*"
+            placeholder="Put you a word..."
             type="text"
           />
           <button className="input-buttom" type="submit">

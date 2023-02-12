@@ -2,7 +2,7 @@ import "./Jesting-Random.css";
 
 const JestingRandom = ({ valor }) => {
   return (
-    <article className="jesting-random-position">
+    <article className="text-position">
       <div>
         <p key={valor.id}>{valor.value}</p>
       </div>

@@ -2,7 +2,7 @@ import "./Jesting.css";
 
 const Jesting = ({ value }) => {
   return (
-    <div className="jesting-position">
+    <div className="text-position-1">
       {value.map((jesting) => {
         return (
           <ul key={jesting.id}>

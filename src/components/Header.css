@@ -1,21 +1,26 @@
-/* Grid style */
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Laila:wght@300&family=Permanent+Marker&display=swap");
 
 .navbar-position {
-  display: grid;
-  justify-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #6b4b08;
-  height: 6rem;
-  width: 100%;
+  height: 100px;
+}
+
+.navbar-position p {
+  position: relative;
+  color: white;
+  top: 45px;
+  right: 40px;
+  border-top: 1px solid black;
+  font-family: "Fredoka One", cursive;
+  font-family: "Laila", sans-serif;
+  font-family: "Permanent Marker", cursive;
 }
 
 .navbar-position img {
   position: relative;
-}
-
-.navbar-position p {
-  border-top: 1px solid black;
-  color: white;
-  font-family: "Fredoka One", cursive;
-  position: relative;
-  bottom: 1.2rem;
+  bottom: 10px;
+  left: 85px;
 }

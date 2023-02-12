@@ -1,56 +1,86 @@
-.random-button {
-  position: relative;
-  display: grid;
-  left: 44%; /* 29% */
-  top: 10rem;
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30%;
 }
 
-.random-button {
-  width: 13rem;
-  height: 1.1rem;
+.button-container button {
+  margin-top: 10px;
+  width: 13vw;
   background-color: #6b4b08;
   border: 1px solid #6b4b08;
-  border-radius: 3px;
-  box-shadow: 3px 4px 8px rgba(102, 75, 8);
-  border: none;
-  border-radius: 3px;
   color: white;
+  border-radius: 6px;
+  font-family: "Fredoka One", cursive;
+  font-family: "Laila", sans-serif;
+  font-family: "Permanent Marker", cursive;
 }
-
-.random-button:hover {
-  color: white;
-  background-color: #2c2007;
-  border: 2px solid #2c2007;
-  border-radius: 3px;
-  box-shadow: 3px 4px 8px rgba(102, 75, 8);
+.button-container button:hover {
+  -webkit-animation: vibrate-1 0.3s linear infinite both;
   animation: vibrate-1 0.3s linear infinite both;
 }
-@keyframes vibrate-1 {
+
+@-webkit-keyframes vibrate-1 {
   0% {
+    -webkit-transform: translate(0);
     transform: translate(0);
   }
   20% {
+    -webkit-transform: translate(-2px, 2px);
     transform: translate(-2px, 2px);
   }
   40% {
+    -webkit-transform: translate(-2px, -2px);
     transform: translate(-2px, -2px);
   }
   60% {
+    -webkit-transform: translate(2px, 2px);
     transform: translate(2px, 2px);
   }
   80% {
+    -webkit-transform: translate(2px, -2px);
     transform: translate(2px, -2px);
   }
   100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+@keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
     transform: translate(0);
   }
 }
 
-@media (max-width: 375px) {
-  .random-button {
-    position: relative;
-    display: grid;
-    left: 24%; /* 29% */
-    top: 5rem;
+@media (max-width: 1270px) {
+  .button-container button {
+    width: 60%;
+  }
+  .text-position p {
+    text-align: center;
+    margin: 5% auto;
   }
 }

@@ -1,29 +1,28 @@
-@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Permanent+Marker&display=swap");
-
-.jesting-position {
-  position: relative;
-  top: 6rem;
-  left: 17%;
-  /* right: 40%; */
-  width: 68%;
-  height: 13rem;
-  overflow-y: auto;
+.text-position-1 {
+  width: 50%;
+  height: 70%;
   border: 1px solid black;
+  overflow: auto;
 }
 
-.jesting-position ul {
-  text-align: center;
+.text-position-1 li {
   list-style: none;
+  text-align: center;
   font-family: "Fredoka One", cursive;
+  font-family: "Laila", sans-serif;
+  font-family: "Permanent Marker", cursive;
 }
 
-.jesting-position::-webkit-scrollbar {
-  -webkit-appearance: button;
-}
-
-@media (max-width: 375px) {
-  .jesting-position {
-    position: relative;
-    top: 2rem;
+@media (max-width: 1270px) {
+  .text-position-1 {
+    width: 80%;
+    height: 40%;
+  }
+  .text-position-1 ul {
+    padding-left: 0;
+  }
+  .text-position-1 li {
+    font-size: 12px;
+    margin: 5% auto;
   }
 }

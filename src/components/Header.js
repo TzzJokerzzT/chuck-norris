@@ -2,10 +2,10 @@ import "./Header.css";
 
 const HeaderChuck = () => {
   return (
-    <header className="navbar-position">
+    <div class="navbar-position">
       <img src={`https://i.imgur.com/wCQFn2Q.gif`} alt="logo" width="70px" />
       <p>Chuck Norris Best Quotes</p>
-    </header>
+    </div>
   );
 };
 

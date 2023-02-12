@@ -1,17 +1,26 @@
-.jesting-random-position {
-  position: relative;
-  left: 17%;
-  top: 9rem;
+.text-position {
+  width: 50%;
+  height: 40%;
   border: 1px solid black;
-  width: 68%;
-  height: 10%;
-  text-align: center;
-  font-family: "Fredoka One", cursive;
+  overflow: auto;
 }
 
-@media (max-width: 375px) {
-  .jesting-random-position {
-    position: relative;
-    top: 4rem;
+.text-position p {
+  text-align: center;
+  margin: 5% auto;
+  font-family: "Fredoka One", cursive;
+  font-family: "Laila", sans-serif;
+  font-family: "Permanent Marker", cursive;
+}
+
+@media (max-width: 1270px) {
+  .text-position {
+    width: 80%;
+    height: 40%;
+  }
+  .text-position p {
+    font-size: 12px;
+    text-align: center;
+    margin: 5% auto;
   }
 }
